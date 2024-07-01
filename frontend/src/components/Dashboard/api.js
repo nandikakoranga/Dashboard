@@ -1,8 +1,7 @@
 // api.js
 import axios from 'axios';
 
-const API_BASE_URL = 'https://dashboard-ten-puce.vercel.app/
-    /api';
+const API_BASE_URL = 'https://locohost:5000/api';
 
 export const fetchData = async () => {
     try {
